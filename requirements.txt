@@ -1,0 +1,27 @@
+# Core Django
+Django==5.0.4
+asgiref==3.9.2
+sqlparse==0.5.3
+tzdata==2025.2
+Pillow==10.4.0
+
+# REST API
+djangorestframework==3.15.2
+
+# CORS
+django-cors-headers==4.6.0
+
+# Env vars
+python-decouple==3.8
+
+# Auth
+djangorestframework-simplejwt==5.3.1
+
+# Automation — Playwright (replaces selenium + undetected-chromedriver)
+playwright==1.44.0
+
+# Excel/CSV
+openpyxl==3.1.2
+
+# Proxy validation
+requests==2.31.0
