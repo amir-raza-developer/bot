@@ -25,3 +25,32 @@ openpyxl==3.1.2
 
 # Proxy validation
 requests==2.31.0
+
+# CAPTCHA solving
+2captcha-python==1.2.1
+hcaptcha==0.0.4
+
+# Enhanced security & anti-detection
+undetected-chromedriver==3.5.4
+user-agent==0.1.10
+
+# Async task processing
+celery==5.3.4
+redis==5.0.1
+
+# WebSockets for real-time progress
+channels==4.0.0
+channels-redis==4.1.0
+
+# Logging & monitoring
+python-logging-loki==0.3.2
+sentry-sdk==1.39.1
+
+# Database async support
+asyncpg==0.29.0
+
+# Email notifications
+django-anymail==10.2
+
+# Rate limiting
+django-ratelimit==4.1.0
