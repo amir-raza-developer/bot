@@ -1,67 +1,26 @@
-# Python
+.env
+.env.local
+*.pyc
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
 *.egg-info/
-.installed.cfg
-*.egg
-
-# Virtual Environment
+dist/
+build/
+.DS_Store
+*.log
+*.sqlite3
+*.db
+media/
+staticfiles/
 venv/
 env/
-ENV/
-
-# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
-.DS_Store
-
-# Django
-*.sqlite3
-*.sqlite
-db.sqlite3
-local_settings.py
-/media/
-/staticfiles/
-
-# Selenium screenshots
-*.png
-*.jpg
-*.html
-
-# Environment
-.env
-.env.local
-.env.*.local
-
-# Logs
-*.log
-
-# OS
-Thumbs.db
-.DS_Store
-
-# Drivers
-/drivers/
-/chromedriver*
-
-# Cache
-.cache/
+error_*.png
+login_debug.png
+no_drafts_found.png
 .pytest_cache/
+htmlcov/
+.coverage
